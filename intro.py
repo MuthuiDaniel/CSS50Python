@@ -43,4 +43,18 @@ def square(n):
 
 main()
 
+def greet(input):
+    if "hello" in input:
+        return "hello, there"
+    else:
+        return "i'm not sure what you mean"
+
+greeting = greet("hello, computer")
+print(greeting)
+
+def get_guess():
+    guess = input("Enter a guess:")
+    return  guess
+
+print(get_guess())
 
